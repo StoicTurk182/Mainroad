@@ -23,8 +23,10 @@ The answers have been categorized into two groups:
 2. Answers to technical questions with code snippets, step-by-step instructions, etc.
 
 ## General questions
+---
 
 ### Do I need to have prior experience before proceeding with the Mainroad theme?
+---
 
 **Yes.** You'll need to be familiar with Hugo before proceeding.
 [Our docs section]({{< ref "/docs/_index.md" >}} "Mainroad theme documentation") is intended for intermediate to
@@ -32,11 +34,13 @@ advanced users and developers. Our documentation may still be helpful to users w
 comprehensive.
 
 ### Do I need to use the extended version of Hugo?
+---
 
 **No.** Mainroad theme intentionally does not use any features of the extended version. As such, the extended version of
 Hugo is not required (but applicable).
 
 ### Is there a list of all possible configuration options?
+---
 
 **Configuration:**
 
@@ -53,6 +57,7 @@ list of Hugo-defined Front Matter variables.
 Mainroad-specific Front Matter variables.
 
 ### What if I have more questions? Should I create an issue?
+---
 
 **We don't provide personal technical support.** As stated in our
 [contributing guidelines](https://github.com/Vimux/Mainroad/blob/master/CONTRIBUTING.md), please do not use the issue
@@ -64,8 +69,10 @@ changed something, and it doesn't work anymore”, “It's not a personal issue,
 contributing rules**. All other issues will be closed and marked as invalid.
 
 ## Technical questions
+---
 
 ### I want to get the `favicon.ico` and `apple-touch-icon.png` to match my `hightlightColor`. What should I do?
+---
 
 There is no way to do this on the fly with Hugo, but you can use the one-liners below with some preparations:
 
@@ -86,6 +93,7 @@ a=#E22D30;a=$(echo 504C54452A2A2A${a:1:6}|sed -e 's/../\\x&/g');printf $a|gzip|t
 ```
 
 ### I want to use Google Programmable Search Engine as a site search engine. Is it possible?
+---
 
 **Yes, it is possible to use [Google PSE (CSE)](https://developers.google.com/custom-search/docs/overview) as a site
 search engine.**

@@ -26,6 +26,7 @@ This document is a brief primer on using Go templates. The [Go docs][gohtmltempl
 provide more details.
 
 ## Introduction to Go Templates
+---
 
 Go templates provide an extremely simple template language. It adheres to the
 belief that only the most basic of logic belongs in the template or view layer.
@@ -36,6 +37,7 @@ content will be sanitized depending on the context of where they are used. More
 details can be found in the [Go docs][gohtmltemplate].
 
 ## Basic Syntax
+---
 
 Golang templates are HTML files with the addition of variables and
 functions.
@@ -64,6 +66,7 @@ Accessing the Page Parameter "bar"
 
 
 ## Variables
+---
 
 Each Go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
@@ -81,6 +84,7 @@ Variables can also be defined and referenced.
 
 
 ## Functions
+---
 
 Go template ship with a few functions which provide basic functionality. The Go
 template system also provides a mechanism for applications to extend the
@@ -95,6 +99,7 @@ functions cannot be added without recompiling hugo.
     {{ add 1 2 }}
 
 ## Includes
+---
 
 When including another template you will pass to it the data it will be
 able to access. To pass along the current context please remember to
@@ -107,10 +112,12 @@ the /layout/ directory within Hugo.
 
 
 ## Logic
+---
 
 Go templates provide the most basic iteration and conditional logic.
 
 ### Iteration
+---
 
 Just like in Go, the Go templates make heavy use of range to iterate over
 a map, array or slice. The following are different examples of how to use
@@ -136,6 +143,7 @@ range.
     {{ end }}
 
 ### Conditionals
+---
 
 If, else, with, or, & and provide the framework for handling conditional
 logic in Go Templates. Like range, each statement is closed with `end`.
@@ -182,6 +190,7 @@ The first example above could be simplified as:
     {{ end }}
 
 ## Pipes
+---
 
 One of the most powerful components of Go templates is the ability to
 stack actions one after another. This is done by using pipes. Borrowed
@@ -226,6 +235,7 @@ Could be rewritten as
 
 
 ## Context (aka. the dot)
+---
 
 The most easily overlooked concept to understand about Go templates is that {{ . }}
 always refers to the current context. In the top level of your template this
@@ -256,6 +266,7 @@ you want to inside of your templates.
 
 
 ## Using Content (page) Parameters
+---
 
 In each piece of content you can provide variables to be used by the
 templates. This happens in the [front matter](/content/front-matter).
@@ -290,6 +301,7 @@ Here is the corresponding code inside of the template:
 
 
 ## Using Site (config) Parameters
+---
 In your top-level configuration file (eg, `config.yaml`) you can define site
 parameters, which are values which will be available to you in chrome.
 

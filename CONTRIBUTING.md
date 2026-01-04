@@ -5,11 +5,13 @@ below. If you're a newcomer to open source and you haven't contributed to other 
 [Git](https://git-scm.com/) before, you should make yourself familiar before proceeding.
 
 ## Issues
+---
 
 The [issue tracker](https://github.com/vimux/mainroad/issues) is the preferred channel for bug reports and features
 requests, but please respect the following restrictions:
 
 ### General requirements
+---
 
 * Issue must be written in English.
 * Please **do not** combine a few problems or feature requests in one issue. Create separate issues if needed.
@@ -22,6 +24,7 @@ such comments. Use
 else hasn't already reported the issue.
 
 ### Reporting bugs
+---
 
 When creating a new bug issue make sure to include the following information:
 
@@ -56,6 +59,7 @@ Please, take in consideration the next template to report your bug:
 and include a link to the original issue in the body of your new one.
 
 ### Proposing features
+---
 
 * Explain the proposed feature, what it should do, why it is useful, and alternatives considered if possible. Please
 note that the project maintainer may close this issue or ask you to create a Pull Request if this is not something that
@@ -64,6 +68,7 @@ the project maintainer sees as a sufficiently high priority.
 Following these guidelines helps maintainer and the community understand your suggestion and find related suggestions.
 
 ## Pull Requests (PR)
+---
 
 **Please ask first** before embarking on any significant pull request (e.g. implementing features or refactoring code),
 otherwise, you risk spending a lot of time working on something that the project maintainer might not want to merge into
@@ -73,6 +78,7 @@ Please respect our Pull Request Acceptance Criteria. For larger changes, you wil
 comments and it may take some time to complete.
 
 ### Pull Request Acceptance Criteria
+---
 
 * Keep the change in a single PR as small as possible
 * 1 PR = 1 FIX or FEATURE (do not combine things, send separate PR if needed)
@@ -98,12 +104,14 @@ are good enough
 to those feedback, otherwise the PR will be closed after 2-4 weeks of inactivity
 
 ### Pull Request Contribution Prerequisites
+---
 
 * You have Node & npm installed
 * You have Hugo installed at v0.54.0+
 * You are familiar with Git
 
 ### Pull Request Process
+---
 
 1. Fork the repository
 1. Clone down the repository to your local system
@@ -121,5 +129,6 @@ to those feedback, otherwise the PR will be closed after 2-4 weeks of inactivity
 **⚠️ IMPORTANT: No guarantees can be made that your pull request will be accepted.**
 
 ## License
+---
 
 By contributing to Mainroad, you agree that your contributions will be licensed under [GPLv2 License](LICENSE.md).

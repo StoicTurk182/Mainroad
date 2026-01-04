@@ -26,6 +26,7 @@ This section will mainly cover customization settings that are unique to this th
 there's a good chance it is covered somewhere in [Hugo docs](https://gohugo.io/documentation/).
 
 ### Logo
+---
 
 **Mainroad** allows you to set a custom logo in the site header. You may use text, or image, or both. Use the following
 options in your site config:
@@ -54,6 +55,7 @@ Disable it this way:
 ```
 
 ### Highlight color
+---
 
 Mainroad uses `#e22d30` as a default highlight color, but you may choose and set any other color.
 
@@ -63,6 +65,7 @@ Mainroad uses `#e22d30` as a default highlight color, but you may choose and set
 ```
 
 ### Post meta
+---
 
 Post meta is a feature that refers to including additional meta information (such as author name, categories, date,
 translations, etc.) on pages. It can be enabled via config using the `post_meta` key with a list of meta field names as
@@ -81,6 +84,7 @@ In addition to the default meta fields, you can add your own by placing a custom
 `layouts/partials/post_meta/<name>.html`.
 
 #### Post meta: `date` localization
+---
 
 With [Hugo v0.87.0](https://gohugo.io/news/0.87.0-relnotes/) (or later), `date` meta field shows localized dates (with
 weekdays and months in the current language) by default. In most cases, such a transition is painless, but owners of
@@ -91,6 +95,7 @@ information about localized dates and possible date/time formatting layouts, ple
 [Hugo: time.Format](https://gohugo.io/functions/dateformat/).
 
 ### Thumbnail visibility
+---
 
 By default, a thumbnail image has shown for a list and single pages simultaneously. In some cases, you may want to show
 a thumbnail for list-like pages only and hide it on single pages (or vice versa). Control global thumbnail visibility
@@ -116,6 +121,7 @@ thumbnail:
 This page is an example of list-only thumbnail visibility.
 
 ### Sidebar
+---
 
 **Mainroad** comes with a configurable sidebar that can be on the left, on the right, or disabled. The default layout
 can be specified in the `[Params.sidebar]` section of the configuration. The position can be specified for home, list
@@ -187,6 +193,7 @@ sections in the example below.
 ```
 
 ### Widget caching
+---
 
 Sidebar strongly affects overall build time, especially if you are using all of our widgets or even more. Widget caching
 can significantly improve the generation time. Cached partials remain the same for all affected pages and are not
@@ -227,6 +234,7 @@ Not all widgets are cacheable. If a widget contains (can contain) different data
 generation), then it should not be cached. Always check that your modified/customized widget is cached correctly.
 
 ### Social Widget: custom links
+---
 
 **Mainroad** contains built-in social links in the social widget. In addition to default social links, you may set
 custom links by adding `Params.widgets.social.custom` to your `config.toml`. Here is an example:
@@ -271,6 +279,7 @@ You can also specify the `rel` attribute for the link. By default, the attribute
 ```
 
 ### Search box widget
+---
 
 The search box widget can refer to the results of Google, Bing, and DuckDuckGo searches. By default, Mainroad uses
 Google search if no additional configuration options are specified.
@@ -323,6 +332,7 @@ See [Creating a Programmable Search Engine](https://developers.google.com/custom
 especially our [FAQ]({{< relref "/docs/faq.md" >}} "Mainroad FAQ") for more instructions.
 
 ### Menus
+---
 
 **Mainroad** supports multiple menus. The `main` menu is fully responsive and displayed right under the site header. The
 secondary menus `side` and `footer` are displayed in a sidebar widget and the page footer respectively. To add a page to
@@ -352,6 +362,7 @@ menu:
 See [Menus](https://gohugo.io/content-management/menus/#readout) from official Hugo documentation for more info.
 
 ### Custom Google Fonts support
+---
 
 Mainroad uses Open Sans from Google Fonts as a main font. But you can use any other font from Google Fonts if you'd
 like. Beware, in most cases, such changes require manual CSS adjustment because every set of fonts is different and

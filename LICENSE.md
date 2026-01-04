@@ -1,4 +1,5 @@
 ### GNU GENERAL PUBLIC LICENSE
+---
 
 Version 2, June 1991
 
@@ -9,6 +10,7 @@ Version 2, June 1991
     of this license document, but changing it is not allowed.
 
 ### Preamble
+---
 
 The licenses for most software are designed to take away your freedom
 to share and change it. By contrast, the GNU General Public License is
@@ -60,6 +62,7 @@ The precise terms and conditions for copying, distribution and
 modification follow.
 
 ### TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+---
 
 **0.** This License applies to any program or other work which
 contains a notice placed by the copyright holder saying it may be
@@ -292,8 +295,10 @@ SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
 DAMAGES.
 
 ### END OF TERMS AND CONDITIONS
+---
 
 ### How to Apply These Terms to Your New Programs
+---
 
 If you develop a new program, and you want it to be of the greatest
 possible use to the public, the best way to achieve this is to make it

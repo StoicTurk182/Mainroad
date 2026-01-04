@@ -18,39 +18,50 @@ The main purpose of this article is to make sure that all basic HTML Elements ar
 <!--more-->
 
 ## Headings
+---
 
 Let's start with all possible headings. The HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level and `<h6>` is the lowest.
 
 # Heading 1
 ## Heading 2
+---
 ### Heading 3
+---
 #### Heading 4
+---
 ##### Heading 5
+---
 ###### Heading 6
+---
 
 ***
 
 ## Paragraph
+---
 
 According to the [HTML5 specification](https://www.w3.org/TR/html5/dom.html#elements) by [W3C](https://www.w3.org/), **HTML documents consist of a tree of elements and text**. Each element is denoted in the source by a [start tag](https://www.w3.org/TR/html5/syntax.html#syntax-start-tags), such as `<body>`, and an [end tag](https://www.w3.org/TR/html5/syntax.html#syntax-end-tags), such as `</body>`. (*Certain start tags and end tags can in certain cases be omitted and are implied by other tags.*)
 
 Elements can have attributes, which control how the elements work. For example, hyperlink are formed using the `a` element and its `href` attribute.
 
 ## List Types
+---
 
 ### Ordered List
+---
 
 1. First item
 2. Second item
 3. Third item
 
 ### Unordered List
+---
 
 * List item
 * Another item
 * And another item
 
 ### Nested list
+---
 
 <ul>
   <li>First item</li>
@@ -76,6 +87,7 @@ Elements can have attributes, which control how the elements work. For example, 
 </ul>
 
 ### Definition List
+---
 
 HTML also supports definition lists.
 
@@ -87,6 +99,7 @@ HTML also supports definition lists.
 </dl>
 
 ## Blockquotes
+---
 
 The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
 
@@ -104,6 +117,7 @@ Blockquote with a citation.
 According to Mozilla's website, <q cite="https://www.mozilla.org/en-US/about/history/details/">Firefox 1.0 was released in 2004 and became a big success.</q>
 
 ## Tables
+---
 
 Tables aren't part of the core Markdown spec, but Hugo supports them.
 
@@ -128,6 +142,7 @@ You can also use inline Markdown.
 | *italics*  | **bold**  | ~~strikethrough~~ | `code`     |
 
 ## Code
+---
 
 ```html
 <!DOCTYPE html>
@@ -156,6 +171,7 @@ You can also use inline Markdown.
 {{< /highlight >}}
 
 ## Other stuff — abbr, sub, sup, kbd, etc.
+---
 
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
 

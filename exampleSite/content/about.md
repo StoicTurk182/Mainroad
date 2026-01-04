@@ -12,6 +12,7 @@ before deciding to go with it. Just keep in mind that the current demo shows the
 combination of Hugo and Mainroad can do.
 
 ## About Mainroad
+---
 
 Mainroad is a responsive, simple, clean and content-focused Hugo theme based on the MH Magazine lite WordPress theme.
 
@@ -32,6 +33,7 @@ Learn more on [GitHub](https://github.com/vimux/mainroad). Mainroad theme is rel
 [GPLv2 license](https://github.com/vimux/mainroad/blob/master/LICENSE.md).
 
 ## About Hugo
+---
 
 Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and
 configurability. Hugo takes a directory with content and templates and renders them into a full HTML website. With its

@@ -21,6 +21,7 @@
 + Custom Google Fonts support, MathJax, Table of Contents, SVG icons and much more…
 
 ## Installation
+---
 
 *Before starting, please be sure that you have
 [installed Hugo](https://gohugo.io/getting-started/quick-start/#step-1-install-hugo) and
@@ -47,8 +48,10 @@ theme = "mainroad"
 ```
 
 ## Configuration
+---
 
 ### Config.toml example
+---
 
 ```toml
 baseurl = "/"
@@ -160,6 +163,7 @@ For more information about all available standard configuration settings, please
 [All Hugo Configuration Settings](https://gohugo.io/getting-started/configuration/#all-configuration-settings).
 
 ### Front Matter example
+---
 
 ```yaml
 ---
@@ -195,6 +199,7 @@ For more information about all available standard front matter variables, please
 [Hugo Front Matter](https://gohugo.io/content-management/front-matter).
 
 ## Contributing
+---
 
 Have you found a bug or got an idea for a new feature? Feel free to use the
 [issue tracker](https://github.com/Vimux/mainroad/issues) to let me know. Or make directly a
@@ -202,5 +207,6 @@ Have you found a bug or got an idea for a new feature? Feel free to use the
 [contributing guide](https://github.com/Vimux/mainroad/blob/master/CONTRIBUTING.md).
 
 ## License
+---
 
 This theme is released under the [GPLv2 license](https://github.com/Vimux/mainroad/blob/master/LICENSE.md).

@@ -20,6 +20,7 @@ with the [Hugo](https://gohugo.io/) static site generator.
 <!--more-->
 
 ## Installation
+---
 
 Before installing the **Mainroad** theme, make sure that you've
 [installed **Hugo** (version 0.54.0 or later)](https://gohugo.io/getting-started/quick-start/#step-1-install-hugo) and
@@ -30,6 +31,7 @@ There are a few ways to install a theme in Hugo. This can be done via git submod
 by downloading the archive and manually copying the files. Three installation options are described below.
 
 ### Option A: `git submodule`
+---
 
 *Additional requirements: git*
 
@@ -46,6 +48,7 @@ git submodule add https://github.com/vimux/mainroad.git themes/mainroad
 instead of git clone.
 
 ### Option B: `git clone`
+---
 
 *Additional requirements: git*
 
@@ -56,6 +59,7 @@ git clone https://github.com/vimux/mainroad.git themes/mainroad
 ```
 
 ### Option C: Manual install
+---
 
 If you do not want to use git, you can manually
 **[download ZIP](https://github.com/vimux/mainroad/archive/master.zip)** and extract it into the `themes/mainroad`
@@ -64,6 +68,7 @@ within your Hugo site.
 ---
 
 ### Activate theme
+---
 
 Whichever installation option you choose, don't forget to edit `theme` param of the site configuration `config.toml`:
 
@@ -74,6 +79,7 @@ theme = "mainroad"
 To check it out, build the site via `hugo` command or make it available on a local server via `hugo server`.
 
 ## Minimal configuration
+---
 
 **Do not copy the [example config](https://github.com/vimux/mainroad#configtoml-example) as-is.**
 Use only the parameters that you need. The Mainroad theme contains required defaults, so you don't need to add all of
